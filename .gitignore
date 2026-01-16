@@ -39,5 +39,8 @@ yarn-error.log*
 # Vite
 frontend/.vite/
 
-# Interview materials
+# Interview and setup files
 INTERVIEW_CHEAT_SHEET.md
+QUICKSTART.md
+setup.ps1
+setup.sh
