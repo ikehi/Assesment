@@ -1,0 +1,122 @@
+.info-panel {
+  width: 350px;
+  background: white;
+  border-left: 1px solid #ddd;
+  padding: 1.5rem;
+  overflow-y: auto;
+  box-shadow: -2px 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.info-panel h2 {
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+  font-size: 1.25rem;
+}
+
+.info-panel h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #34495e;
+  font-size: 1rem;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.25rem;
+}
+
+.hospital-info p,
+.nearest-ambulance p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.nearest-ambulance {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #ecf0f1;
+  border-radius: 4px;
+  border-left: 4px solid #3498db;
+}
+
+.nearest-ambulance p strong {
+  color: #2c3e50;
+}
+
+.cache-info {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #bdc3c7;
+  color: #7f8c8d;
+}
+
+.loading-nearest {
+  margin-top: 1rem;
+  padding: 1rem;
+  text-align: center;
+  color: #7f8c8d;
+}
+
+.no-selection {
+  padding: 2rem 1rem;
+  text-align: center;
+  color: #7f8c8d;
+}
+
+.update-section {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 2px solid #ecf0f1;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+.update-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 0.5rem;
+}
+
+.update-btn:hover:not(:disabled) {
+  background: #229954;
+}
+
+.update-btn:disabled {
+  background: #95a5a6;
+  cursor: not-allowed;
+}
+
+.help-text {
+  margin-top: 0.75rem;
+  color: #7f8c8d;
+  font-style: italic;
+}
